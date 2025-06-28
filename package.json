@@ -1,0 +1,84 @@
+{
+  "name": "allinone-toolkit",
+  "version": "1.0.0",
+  "description": "A comprehensive suite of professional-grade digital tools for file conversion, media processing, and content generation",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build process needed for static site' && exit 0",
+    "deploy": "gh-pages -d .",
+    "lint:html": "htmlhint *.html",
+    "lint:css": "stylelint styles.css",
+    "lint:js": "eslint script.js",
+    "format": "prettier --write \"**/*.{html,css,js,md}\"",
+    "validate": "html-validate *.html",
+    "optimize": "imagemin 'assets/**/*.{jpg,png,svg}' --out-dir=assets/optimized"
+  },
+  "keywords": [
+    "file-converter",
+    "media-processing",
+    "digital-tools",
+    "qr-generator",
+    "pdf-tools",
+    "image-converter",
+    "video-converter",
+    "audio-converter",
+    "youtube-downloader",
+    "productivity",
+    "utilities",
+    "web-app",
+    "responsive",
+    "mobile-friendly"
+  ],
+  "author": {
+    "name": "AllInOne Platform",
+    "url": "https://github.com/your-username/allinone"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/allinone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/allinone/issues"
+  },
+  "homepage": "https://your-username.github.io/allinone",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "gh-pages": "^4.0.0",
+    "htmlhint": "^1.1.4",
+    "html-validate": "^7.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-cli": "^7.0.0",
+    "prettier": "^2.8.0",
+    "serve": "^14.0.0",
+    "stylelint": "^15.0.0"
+  },
+  "files": [
+    "index.html",
+    "about.html",
+    "pricing.html",
+    "tools.html",
+    "features.html",
+    "styles.css",
+    "script.js",
+    "favicon.ico",
+    "tools/"
+  ],
+  "contributors": [],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/your-username"
+  }
+} 
